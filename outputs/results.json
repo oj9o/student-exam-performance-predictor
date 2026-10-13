@@ -1,0 +1,11 @@
+{
+  "observations": 13,
+  "training_observations": 10,
+  "test_observations": 3,
+  "coefficient": 6.071273359408952,
+  "intercept": 37.23294219904389,
+  "mae": 1.4822540924235785,
+  "prediction_7_5": 82.76749239461103,
+  "prediction_100": 644.3602781399392,
+  "conclusion_word_count": 220
+}
