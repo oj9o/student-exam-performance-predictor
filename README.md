@@ -1,5 +1,14 @@
 # Student Exam Performance Predictor
 
+## Interactive Demo
+
+[**Launch the interactive prediction lab →**](https://mouza-study-score-lab.rsralmuhairi.chatgpt.site/)
+
+An optional interactive companion lets you explore the model predictions and limitations. The executed notebook contains the complete assignment submission.
+
+[Open the executed notebook](Student_Exam_Performance_Predictor.ipynb) · [Offline demo source](demo/index.html)
+
+
 A proof of concept for the Academic Support Office. It uses the 13 supplied observations to examine the association between study hours and exam score, fit a linear regression on study hours alone, and state where a prediction should not be trusted.
 
 ## Results
