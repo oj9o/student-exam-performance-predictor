@@ -1,5 +1,9 @@
 # Student Exam Performance Predictor
 
+**MAAI7102 Assignment 1 — individual submission, aligned with Assignment_1_mkV2.**
+
+[Read the complete executed notebook](Student_Exam_Performance_Predictor.ipynb). It contains all seven required stages, saved numerical outputs, plots, and explanations.
+
 ## Interactive Demo
 
 [**Launch the interactive prediction lab →**](https://mouza-study-score-lab.rsralmuhairi.chatgpt.site/)
@@ -21,6 +25,16 @@ The model is fit on 10 training observations and evaluated on 3 held-out observa
 - Output at 100 study hours: 644.36 points. That figure is an extrapolation and is not a usable prediction.
 
 `AboveAverage` is calculated from the exam scores for description only. It is not a model input. The line is fit on the training rows. The test rows are used only to measure error.
+
+## Assignment coverage
+
+1. Project requirements, project-specific SDLC plan, and workflow.
+2. Exact 13-row supplied dataset, NumPy statistics, and vectorized above-average comparison.
+3. Pandas inspection, AboveAverage column, stakeholder filter, and explanation.
+4. Exploratory scatter plot and training-fitted regression line with interpretation.
+5. Required train/test split, Linear Regression parameters, and actual-versus-predicted test table.
+6. Test MAE in score points, 7.5-hour prediction, and 100-hour extrapolation limitation.
+7. A 220-word conclusion, limitations, future improvements, and library roles.
 
 ## How to run
 
