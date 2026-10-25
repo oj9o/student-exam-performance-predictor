@@ -60,8 +60,6 @@ Thirteen observations and one predictor cannot support a causal claim or a decis
 
 ## Visual results
 
-![Workflow](outputs/project_workflow.png)
-
 ![Observed relationship](outputs/study_hours_scatter.png)
 
 ![Training fit and test observations](outputs/study_hours_regression.png)
@@ -71,8 +69,8 @@ Thirteen observations and one predictor cannot support a causal claim or a decis
 ## Project files
 
 - The notebook contains the complete seven-stage analysis and saved outputs.
-- `outputs/` contains four figures, the test comparison CSV, and model results.
-- `tests/test_project.py` replays the analysis and checks data, the split, model parameters, predictions, MAE, all four figures, and conclusion length.
+- `outputs/` contains three analytical figures, the test comparison CSV, and model results.
+- `tests/test_project.py` replays the analysis and checks data, the split, model parameters, predictions, MAE, all three analytical figures, and conclusion length.
 - `.github/workflows/verify.yml` runs tests on pushes and pull requests.
 - `demo/index.html` is a browser demonstration of the trained prediction equation. Open it directly; it needs no server, GPU, or package installation. It uses model parameters exported from the verified Python analysis.
 

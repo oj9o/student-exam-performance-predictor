@@ -65,11 +65,11 @@ class ProjectTests(unittest.TestCase):
         self.assertEqual([c.execution_count for c in codes], list(range(1, len(codes) + 1)))
         self.assertFalse(any(o.output_type == 'error' for c in codes for o in c.outputs))
         image_count = sum('image/png' in o.get('data', {}) for c in codes for o in c.outputs)
-        self.assertEqual(image_count, 4)
+        self.assertEqual(image_count, 3)
         count = len(self.state['conclusion'].split())
         self.assertTrue(150 <= count <= 250)
         self.assertEqual(self.results['conclusion_word_count'], count)
-        for name in ['project_workflow.png', 'study_hours_scatter.png', 'study_hours_regression.png', 'test_prediction_errors.png', 'test_predictions.csv']:
+        for name in ['study_hours_scatter.png', 'study_hours_regression.png', 'test_prediction_errors.png', 'test_predictions.csv']:
             self.assertTrue((ROOT / 'outputs' / name).is_file())
 
 if __name__ == '__main__':
